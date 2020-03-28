@@ -24,7 +24,7 @@
     2. 增强：配置要检查内容（读取命令行参数)
 
 ## 工具
-* [tiny-glob](tiny-glob)
+* [tiny-glob](https://github.com/terkelg/tiny-glob)
 * [PostCss](https://postcss.org/)
 
 
