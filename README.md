@@ -1,6 +1,6 @@
-## 使用
-* 安装 [husky](https://www.npmjs.com/package/husky)，[lint-staged](https://www.npmjs.com/package/lint-staged)
-* 配置
+## Usage
+* install [husky](https://www.npmjs.com/package/husky)，[lint-staged](https://www.npmjs.com/package/lint-staged)
+* set
   ```
     "husky": {
       "hooks": {
@@ -14,14 +14,17 @@
     }
   ```
 
-## 功能流程
+## function flow
 * match all the paths of CSS
     1. to enhance：adapt to Sass、Less
 * read the css file
-* PostCss 解析，找到 CSS 文件内的 selector
-* 判断 selector 是否标签
-    1. 增强：检查类型
-    2. 增强：配置要检查内容（读取命令行参数)
+* PostCss: transfer to AST
+* check the css
+    1. to enhance: check the type
+    2. to enhance: provide the setting of input
+
+## to improve
+* output with color, [chalk](https://www.npmjs.com/package/chalk)
 
 ## Tools
 * [tiny-glob](https://github.com/terkelg/tiny-glob): match the paths
